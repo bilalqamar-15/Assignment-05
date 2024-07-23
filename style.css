@@ -1,0 +1,165 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: aliceblue;
+  font-family: sans-serif;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(248 248 248);
+  height: 45px;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  
+}
+nav ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  cursor: pointer;
+}
+.firstpic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic1 {
+  height: 77%;
+  width: 30%;
+  padding: 0px;
+  margin-top: 80px;
+}
+
+.btn1 {
+  display: block;
+  margin: auto;
+  height: 40px;
+  width: 116px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid royalblue;
+  color: royalblue;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: royalblue;
+  color: white;
+}
+
+.macbookh1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  font-size: 1.5rem;
+}
+
+.macbookh3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  padding-top: 5px;
+}
+
+.macbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  margin: 5px;
+}
+
+.learn {
+  height: 42px;
+  width: 118px;
+  background-color: royalblue;
+  border-radius: 20px;
+  border: 1px solid royalblue;
+  color: white;
+  margin-inline: 8px;
+}
+.buy {
+  height: 42px;
+  width: 118px;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid royalblue;
+  color: royalblue;
+}
+.learn:hover {
+  background-color: rgb(91, 126, 234);
+  color: white;
+}
+
+.buy:hover {
+  background-color: royalblue;
+  color: white;
+}
+
+.macbookm {
+  width: 100%;
+  height: 50%;
+}
+
+.iphone {
+  text-align: center;
+  height: 182px;
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  padding-top: 66px;
+}
+
+.iphonepic {
+  width: 100%;
+  height: 50vh;
+}
+.iphonebtn {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  cursor: pointer;
+}
+.morebtn {
+  height: 42px;
+  width: 118px;
+  border-radius: 20px;
+  background-color: rgb(16, 66, 216);
+  border: 1px solid rgb(16, 66, 216);
+  margin-inline: 10px;
+  font-size: 1.1rem;
+  font-weight: 100;
+  color: white;
+  cursor: pointer;
+}
+.shopbtn {
+  height: 42px;
+  width: 118px;
+  border-radius: 20px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgb(16, 66, 216);
+  color: rgb(16, 66, 216);
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.shopbtn:hover {
+  background-color: rgb(16, 66, 216);
+  color: white;
+}
